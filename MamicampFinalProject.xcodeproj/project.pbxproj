@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1B0520E16C7F64B98A22A7E /* Pods_MamicampFinalProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F686B795FE9B3AFD63CC03A1 /* Pods_MamicampFinalProject.framework */; };
 		F506F98B224BD482008BB122 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F506F98A224BD482008BB122 /* AppDelegate.swift */; };
 		F506F98D224BD482008BB122 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F506F98C224BD482008BB122 /* ViewController.swift */; };
 		F506F990224BD482008BB122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F506F98E224BD482008BB122 /* Main.storyboard */; };
 		F506F993224BD482008BB122 /* MamicampFinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F506F991224BD482008BB122 /* MamicampFinalProject.xcdatamodeld */; };
 		F506F995224BD483008BB122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F506F994224BD483008BB122 /* Assets.xcassets */; };
 		F506F998224BD483008BB122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F506F996224BD483008BB122 /* LaunchScreen.storyboard */; };
+		F506F9A0224BE0CD008BB122 /* KostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F506F99F224BE0CD008BB122 /* KostTableViewCell.xib */; };
+		F506F9A2224BE503008BB122 /* DetailKostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F506F9A1224BE503008BB122 /* DetailKostViewController.swift */; };
+		F506F9A4224BE680008BB122 /* TambahKostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F506F9A3224BE680008BB122 /* TambahKostViewController.swift */; };
+		F506F9A8224BE8E6008BB122 /* KostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F506F9A7224BE8E6008BB122 /* KostTableViewCell.swift */; };
+		F51DC7B8224C0A4D00EB4958 /* NetworkFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51DC7B7224C0A4D00EB4958 /* NetworkFacade.swift */; };
+		F51DC7BA224C0E1200EB4958 /* KostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51DC7B9224C0E1200EB4958 /* KostViewModel.swift */; };
+		F51DC7BC224C159600EB4958 /* KostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51DC7BB224C159600EB4958 /* KostModel.swift */; };
+		F51DC7C1224C186600EB4958 /* AnyViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51DC7C0224C186600EB4958 /* AnyViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24A6FA53C8AB1ECA7420ED5C /* Pods-MamicampFinalProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamicampFinalProject.release.xcconfig"; path = "Target Support Files/Pods-MamicampFinalProject/Pods-MamicampFinalProject.release.xcconfig"; sourceTree = "<group>"; };
+		9E2EE42C64064AB6DB941955 /* Pods-MamicampFinalProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamicampFinalProject.debug.xcconfig"; path = "Target Support Files/Pods-MamicampFinalProject/Pods-MamicampFinalProject.debug.xcconfig"; sourceTree = "<group>"; };
 		F506F987224BD482008BB122 /* MamicampFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MamicampFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F506F98A224BD482008BB122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F506F98C224BD482008BB122 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +35,15 @@
 		F506F994224BD483008BB122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F506F997224BD483008BB122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F506F999224BD483008BB122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F506F99F224BE0CD008BB122 /* KostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KostTableViewCell.xib; sourceTree = "<group>"; };
+		F506F9A1224BE503008BB122 /* DetailKostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailKostViewController.swift; sourceTree = "<group>"; };
+		F506F9A3224BE680008BB122 /* TambahKostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TambahKostViewController.swift; sourceTree = "<group>"; };
+		F506F9A7224BE8E6008BB122 /* KostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KostTableViewCell.swift; sourceTree = "<group>"; };
+		F51DC7B7224C0A4D00EB4958 /* NetworkFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFacade.swift; sourceTree = "<group>"; };
+		F51DC7B9224C0E1200EB4958 /* KostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KostViewModel.swift; sourceTree = "<group>"; };
+		F51DC7BB224C159600EB4958 /* KostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KostModel.swift; sourceTree = "<group>"; };
+		F51DC7C0224C186600EB4958 /* AnyViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyViewExtension.swift; sourceTree = "<group>"; };
+		F686B795FE9B3AFD63CC03A1 /* Pods_MamicampFinalProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MamicampFinalProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B0520E16C7F64B98A22A7E /* Pods_MamicampFinalProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		539A10041B33AF7DB84CD297 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E2EE42C64064AB6DB941955 /* Pods-MamicampFinalProject.debug.xcconfig */,
+				24A6FA53C8AB1ECA7420ED5C /* Pods-MamicampFinalProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3C958CF7E5F69D7EB059D68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F686B795FE9B3AFD63CC03A1 /* Pods_MamicampFinalProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F506F97E224BD482008BB122 = {
 			isa = PBXGroup;
 			children = (
 				F506F989224BD482008BB122 /* MamicampFinalProject */,
 				F506F988224BD482008BB122 /* Products */,
+				539A10041B33AF7DB84CD297 /* Pods */,
+				D3C958CF7E5F69D7EB059D68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +97,62 @@
 			isa = PBXGroup;
 			children = (
 				F506F98A224BD482008BB122 /* AppDelegate.swift */,
-				F506F98C224BD482008BB122 /* ViewController.swift */,
-				F506F98E224BD482008BB122 /* Main.storyboard */,
+				F51DC7B6224C0A1F00EB4958 /* Network */,
+				F51DC7BD224C169500EB4958 /* Model */,
+				F51DC7C2224C18CD00EB4958 /* ViewModel */,
+				F51DC7BF224C183200EB4958 /* Helper */,
+				F51DC7BE224C16B600EB4958 /* Views */,
 				F506F994224BD483008BB122 /* Assets.xcassets */,
-				F506F996224BD483008BB122 /* LaunchScreen.storyboard */,
 				F506F999224BD483008BB122 /* Info.plist */,
 				F506F991224BD482008BB122 /* MamicampFinalProject.xcdatamodeld */,
 			);
 			path = MamicampFinalProject;
+			sourceTree = "<group>";
+		};
+		F51DC7B6224C0A1F00EB4958 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F51DC7B7224C0A4D00EB4958 /* NetworkFacade.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F51DC7BD224C169500EB4958 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F51DC7BB224C159600EB4958 /* KostModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F51DC7BE224C16B600EB4958 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F506F98E224BD482008BB122 /* Main.storyboard */,
+				F506F99F224BE0CD008BB122 /* KostTableViewCell.xib */,
+				F506F996224BD483008BB122 /* LaunchScreen.storyboard */,
+				F506F98C224BD482008BB122 /* ViewController.swift */,
+				F506F9A7224BE8E6008BB122 /* KostTableViewCell.swift */,
+				F506F9A3224BE680008BB122 /* TambahKostViewController.swift */,
+				F506F9A1224BE503008BB122 /* DetailKostViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F51DC7BF224C183200EB4958 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F51DC7C0224C186600EB4958 /* AnyViewExtension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F51DC7C2224C18CD00EB4958 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F51DC7B9224C0E1200EB4958 /* KostViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F506F99C224BD483008BB122 /* Build configuration list for PBXNativeTarget "MamicampFinalProject" */;
 			buildPhases = (
+				F2533A86B108C6C698C800D9 /* [CP] Check Pods Manifest.lock */,
 				F506F983224BD482008BB122 /* Sources */,
 				F506F984224BD482008BB122 /* Frameworks */,
 				F506F985224BD482008BB122 /* Resources */,
+				0C6F60F9C077CF5B63B6590A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +217,81 @@
 			files = (
 				F506F998224BD483008BB122 /* LaunchScreen.storyboard in Resources */,
 				F506F995224BD483008BB122 /* Assets.xcassets in Resources */,
+				F506F9A0224BE0CD008BB122 /* KostTableViewCell.xib in Resources */,
 				F506F990224BD482008BB122 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C6F60F9C077CF5B63B6590A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MamicampFinalProject/Pods-MamicampFinalProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MamicampFinalProject/Pods-MamicampFinalProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2533A86B108C6C698C800D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MamicampFinalProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F506F983224BD482008BB122 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F506F9A2224BE503008BB122 /* DetailKostViewController.swift in Sources */,
 				F506F993224BD482008BB122 /* MamicampFinalProject.xcdatamodeld in Sources */,
 				F506F98D224BD482008BB122 /* ViewController.swift in Sources */,
+				F51DC7BC224C159600EB4958 /* KostModel.swift in Sources */,
+				F51DC7BA224C0E1200EB4958 /* KostViewModel.swift in Sources */,
+				F506F9A4224BE680008BB122 /* TambahKostViewController.swift in Sources */,
+				F51DC7B8224C0A4D00EB4958 /* NetworkFacade.swift in Sources */,
+				F506F9A8224BE8E6008BB122 /* KostTableViewCell.swift in Sources */,
 				F506F98B224BD482008BB122 /* AppDelegate.swift in Sources */,
+				F51DC7C1224C186600EB4958 /* AnyViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +435,7 @@
 		};
 		F506F99D224BD483008BB122 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2EE42C64064AB6DB941955 /* Pods-MamicampFinalProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +453,7 @@
 		};
 		F506F99E224BD483008BB122 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A6FA53C8AB1ECA7420ED5C /* Pods-MamicampFinalProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
