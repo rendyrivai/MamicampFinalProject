@@ -22,6 +22,8 @@
 		F51DC7BA224C0E1200EB4958 /* KostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51DC7B9224C0E1200EB4958 /* KostViewModel.swift */; };
 		F51DC7BC224C159600EB4958 /* KostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51DC7BB224C159600EB4958 /* KostModel.swift */; };
 		F51DC7C1224C186600EB4958 /* AnyViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51DC7C0224C186600EB4958 /* AnyViewExtension.swift */; };
+		F5429F6D224C91810022250E /* ViewController+TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5429F6C224C91810022250E /* ViewController+TableViewDataSource.swift */; };
+		F55B6538224CB5FC0091E900 /* ViewController+TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55B6537224CB5FC0091E900 /* ViewController+TableViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		F51DC7B9224C0E1200EB4958 /* KostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KostViewModel.swift; sourceTree = "<group>"; };
 		F51DC7BB224C159600EB4958 /* KostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KostModel.swift; sourceTree = "<group>"; };
 		F51DC7C0224C186600EB4958 /* AnyViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyViewExtension.swift; sourceTree = "<group>"; };
+		F5429F6C224C91810022250E /* ViewController+TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+TableViewDataSource.swift"; sourceTree = "<group>"; };
+		F55B6537224CB5FC0091E900 /* ViewController+TableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+TableViewDelegate.swift"; sourceTree = "<group>"; };
 		F686B795FE9B3AFD63CC03A1 /* Pods_MamicampFinalProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MamicampFinalProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -129,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				F506F98E224BD482008BB122 /* Main.storyboard */,
+				F5429F6C224C91810022250E /* ViewController+TableViewDataSource.swift */,
+				F55B6537224CB5FC0091E900 /* ViewController+TableViewDelegate.swift */,
 				F506F99F224BE0CD008BB122 /* KostTableViewCell.xib */,
 				F506F996224BD483008BB122 /* LaunchScreen.storyboard */,
 				F506F98C224BD482008BB122 /* ViewController.swift */,
@@ -287,9 +293,11 @@
 				F506F98D224BD482008BB122 /* ViewController.swift in Sources */,
 				F51DC7BC224C159600EB4958 /* KostModel.swift in Sources */,
 				F51DC7BA224C0E1200EB4958 /* KostViewModel.swift in Sources */,
+				F5429F6D224C91810022250E /* ViewController+TableViewDataSource.swift in Sources */,
 				F506F9A4224BE680008BB122 /* TambahKostViewController.swift in Sources */,
 				F51DC7B8224C0A4D00EB4958 /* NetworkFacade.swift in Sources */,
 				F506F9A8224BE8E6008BB122 /* KostTableViewCell.swift in Sources */,
+				F55B6538224CB5FC0091E900 /* ViewController+TableViewDelegate.swift in Sources */,
 				F506F98B224BD482008BB122 /* AppDelegate.swift in Sources */,
 				F51DC7C1224C186600EB4958 /* AnyViewExtension.swift in Sources */,
 			);

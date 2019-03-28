@@ -10,8 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var tableView: UITableView!
+    
     lazy var kostViewModel = KostViewModel()
-    var kostTV : UITableView!
     private var roundButton = UIButton()
     
     override func viewDidLoad() {
@@ -19,18 +20,12 @@ class ViewController: UIViewController {
         
         self.title = "List Kost"
         
-        let barHeight: CGFloat = UIApplication.shared.statusBarFrame.size.height
-        let displayWidth: CGFloat = self.view.frame.width
-        let displayHeight: CGFloat = self.view.frame.height
-        
-        kostTV = UITableView(frame: CGRect(x: 0, y: barHeight, width: displayWidth, height: displayHeight - barHeight))
-        kostTV.register(UINib.init(nibName: "KostTableViewCell", bundle: nil), forCellReuseIdentifier: "KostTableViewCell")
-        kostTV.dataSource = self as? UITableViewDataSource
-        kostTV.delegate = self as? UITableViewDelegate
-        self.view.addSubview(kostTV)
-        
-        kostViewModel.delegate = self as? KostViewModelDelegate
+        kostViewModel.delegate = self
         kostViewModel.loadKost()
+        
+        tableView.register(UINib.init(nibName: "KostTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
+        tableView.dataSource = self
+        tableView.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
     

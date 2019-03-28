@@ -22,9 +22,10 @@ class KostViewModel{
             (json) in
             for object in json["data"].arrayValue {
                 let kost = KostModel(object)
+                print (kost.name)
                 self.listkost.append(kost)
             }
-            print(self.listkost)
+            //print(self.listkost)
             self.delegate?.onKostLoaded()
         }
     }

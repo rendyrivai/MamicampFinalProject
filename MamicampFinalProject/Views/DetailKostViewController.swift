@@ -20,6 +20,7 @@ class DetailKostViewController: UIViewController {
     
     var kostModel : KostModel!
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
         updateKost()
@@ -33,8 +34,9 @@ class DetailKostViewController: UIViewController {
         detailKost.text = kostModel.type
         categoryKost.text = kostModel.category
         descriptionKost.text = kostModel.description
-        priceKost.text = " - " + kostModel.price
+        priceKost.text = "- " + kostModel.price
     }
+    
 
     /*
     // MARK: - Navigation
