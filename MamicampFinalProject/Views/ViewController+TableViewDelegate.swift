@@ -21,4 +21,8 @@ extension ViewController: UITableViewDelegate{
             print("something wrong on opening next page")
         }
     }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 140
+    }
 }

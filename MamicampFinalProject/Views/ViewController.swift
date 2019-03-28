@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         tableView.register(UINib.init(nibName: "KostTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
         tableView.dataSource = self
         tableView.delegate = self
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
     
